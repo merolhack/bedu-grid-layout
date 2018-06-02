@@ -35,9 +35,17 @@ header #search-box form select {
     width: 
 }
 header #search-box form button {
-    
+    background-color: orange;
 }
-
+/* Main Content */
+.main-content {
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+.main-content .products .carousel {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
 /* Menu */
 nav {
     background-color: #232f3e;
