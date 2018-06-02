@@ -7,6 +7,7 @@ header {
     height: 100px;
     display: grid;
     grid-template-columns: auto auto auto;
+    background-color: #232f3e;
 }
 header #nav-logo {
     line-height: 0;
@@ -23,17 +24,39 @@ header #nav-logo .logo {
 
 header #search-box form {
     display: grid;
-    grid-template-columns: auto auto 30px;
+    grid-template-columns: 200px auto 30px;
+}
+header #search-box form * {
+    height: 30px;
+}
+header #search-box form input {
+}
+header #search-box form select {
+    width: 
+}
+header #search-box form button {
+    
 }
 
 /* Menu */
+nav {
+    background-color: #232f3e;
+}
 nav ul {
     display: grid;
     grid-template-columns: auto auto auto auto auto;
     list-style: none;
 }
+nav ul li a {
+    color: white;
+}
 
-footer {
+footer .footer-links {
     display: grid;
     grid-template-columns: auto auto auto auto;
+    background-color: #232f3e;
+    color: white;
+}
+footer .copyright {
+    background-color: #131a22;
 }
