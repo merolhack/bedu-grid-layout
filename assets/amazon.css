@@ -1,20 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
 header {
+    width: 100vw;
     height: 100px;
+    display: grid;
+    grid-template-columns: auto auto auto;
 }
 header #nav-logo {
-    position: relative;
-    float: left;
     line-height: 0;
     height: 100%;
     width: 192px;
-    padding: 13px 18px 0 27px;
 }
 header #nav-logo .logo {
-    margin: 0;
-    padding: 0;
     width: 100%;
     height: 100%;
-    background-image: url(https://images-na.ssl-images-amazon.com/images/G/33/gno/sprites/nav-sprite-global_bluebeacon-V3-1x_optimized._CB516557495_.png);
-    background-position: 0 1000px;
-    background-repeat: repeat-x;
+    background-image: url('amazon-logo.png');
+    background-position: 0;
+    background-repeat: no-repeat;
+}
+
+header #search-box form {
+    display: grid;
+    grid-template-columns: auto auto 30px;
+}
+
+/* Menu */
+nav ul {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    list-style: none;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
 }
